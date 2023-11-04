@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="main-page-body">
+
+    <main id="hero-page">
+        <section class="about">
+            <h1>IP Address:<span class="ip-add">126.108.16.12</span></h1>
+            <div class="about-r-1">
+                <p id="lat">Lat: <span></span></p>
+                <p>City: <span></span></p>
+                <p>Organisation: <span></span></p>
+            </div>
+            <div class="about-r-2">
+                <p>Long: <span></span></p>
+                <p>Region: <span></span></p>
+                <p>Hostname: <span></span></p>
+            </div>
+        </section>
+
+        <section class="map-container">
+            <h2>Your current Location</h2>
+            <div class="map">
+                <!-- <iframe src="https://maps.google.com/maps?q=35.856737, 10.606619&output=embed" frameborder="0" style="border: 0;"></iframe> -->
+            </div>
+        </section>
+
+        <section class="more-info">
+            <h3>More Information About You</h3>
+            <p>Time Zone: <span></span></p>
+            <p>Date And Time: <span></span></p>
+            <p>Pincode: <span></span></p>
+            <p >Message:Number of pincode found: <span>21</span></p>
+
+        </section>
+
+        <section class="postofice-cards">
+            <h1>Post office Near about you</h1>
+            <input type="text" id="post-ofc-search"  placeholder="🔍 Search By Name">
+            <div class="card-container">
+<!-- 
+                <div class="card">
+                    <h4>Name <span></span></h4>
+                    <h4>Branch Type <span></span></h4>
+                    <h4>Delivery Status <span></span></h4>
+                    <h4>District <span></span></h4>
+                    <h4>Divison <span></span></h4>
+                </div> -->
+
+            </div>
+        </section>
+    </main>
+
+      <!-- loader-section -->
+      <div class="loader-section" id="loader-sec">
+        <div class="loaders" id="loader"></div>
+    </div>
+
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
